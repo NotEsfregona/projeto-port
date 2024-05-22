@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "467430495661",
+    "firebase_url": "https://appcmdes-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "appcmdes",
+    "storage_bucket": "appcmdes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467430495661:android:9065ffd391303f16793d24",
+        "android_client_info": {
+          "package_name": "com.example.appcmdes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467430495661-u6o24edbbt2m4cldm28rd2p73k3umve7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm5XL5oGzL1WkcUh7JSbEUXoX6AD7rYeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467430495661-u6o24edbbt2m4cldm28rd2p73k3umve7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "467430495661-guejvj84ub1lms2l1l21tqnqcjbaide7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.appcmdes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
