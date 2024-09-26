@@ -1,4 +1,5 @@
 import 'package:appcmdes/screens/CalendarPage.dart';
+import 'package:appcmdes/screens/InfoPage.dart';
 import 'package:appcmdes/screens/LoginPage.dart';
 import 'package:appcmdes/screens/MapPage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -212,7 +213,11 @@ class _MainPageState extends State<MainPage> {
               children: [
                 GestureDetector(
                   onTap: () {
-                    // Implemente a lógica para o botão Info
+                    Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(
+                        builder: (context) => InfoPage(),
+                      ),
+                    );
                   },
                   child: Container(
                     width: 150,
